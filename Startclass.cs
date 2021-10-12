@@ -60,13 +60,52 @@ namespace kordamine
             {
                 Console.WriteLine("Te olete pinginaabrid")
             }
- 
+
+
+            string arv = Console.ReadLine();
+            Console.WriteLine(arv);
+            if (eesnimi.ToLower() == )
+
+
+
+           for (int i=0;i<5; i++)
+          {
+                    Console.Write("sisestage numbrid:");
+                    int smt = Convert.ToInt32(Console.ReadLine());
+                    Array[i] = smt;
+           }
+            int sum = 0;
+            int mult = 1;
+            foreach (var item in Array)
+            {
+                sum += item;
+                mult = item * mult;
+            }
+            Console.WriteLine($"Nums AVG ={Array.Average()}\ nNums sum multiplied={mult}");
+
+
+            string text;
+            do
+            
+            {
+
+                Console.WriteLine("Osta elevant ära (0)",nr);
+                
+                
+            }
+            while (nr != elevant) ;
+            Console.WriteLine("elevant");
 
 
 
 
 
-                Console.ReadLine();
+            Random import(100)
+            Console.WriteLine("arva ära arv");
+            string arv = Console.ReadLine();
+
+
+            Console.ReadLine();
         }
     }
 }
